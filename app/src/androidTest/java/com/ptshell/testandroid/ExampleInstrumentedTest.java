@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 public class ExampleInstrumentedTest {
     @org.junit.Test
     public void useAppContext() {
-        // Context of the app under Test.
+        // MyContext of the app under Test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.ptshell.testandroid", appContext.getPackageName());
     }
