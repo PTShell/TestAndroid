@@ -1,6 +1,6 @@
 package com.ptshell.testandroid.examples.designmode.builder_mode.ex2;
 
-public class BMWX6Bulider extends Builder{
+public class BMWX6Bulider extends Builder {
     private BMWCar mBMWCar = new BMWX6Car();
 
     @Override

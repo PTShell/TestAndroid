@@ -1,7 +1,7 @@
 package com.ptshell.testandroid.examples.designmode.builder_mode.ex2;
 
-public class BMWX6Car extends BMWCar{
-    protected BMWX6Car(){
+public class BMWX6Car extends BMWCar {
+    protected BMWX6Car() {
 
     }
 

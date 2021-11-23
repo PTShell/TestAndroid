@@ -10,7 +10,7 @@ public abstract class BMWCar {
     // 汽车内饰
     protected String mDecoration;
 
-    protected BMWCar(){
+    protected BMWCar() {
 
     }
 
