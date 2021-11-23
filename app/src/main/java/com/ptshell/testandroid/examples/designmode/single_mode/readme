@@ -1,3 +1,9 @@
+单例模式：应用最广的设计模式
 注意：单例模式一般没有接口，如果要修改，只能修改代码，很难扩展；
 如果持有Context容易内存泄漏，所以最好为ApplicationContext。
 选择第四种 推荐的方式实现单例
+
+参考资料：
+https://www.jianshu.com/p/9c32aea34b6d
+
+https://www.jianshu.com/p/cdd9c0c5809d

@@ -7,7 +7,7 @@ package com.ptshell.testandroid.examples.designmode.single_mode;
  * 1给Singleton实例分配内存；
  * 2调用Singleton（）构造函数，初始化成员字段；
  * 3将instance对象指向分配的内存空间（此时instance就不是null了）。
- *
+ * <p>
  * DCL优点：资源利用率高，第一次执行getInstance才会被实例化，效率高。
  * 缺点：第一次加载时反映稍慢，也由于内存模型的原因偶尔会失败。在高并发的环境下也有一定的缺陷，虽然发生率很小。
  * DCL是使用最多的单例实现方式，它能够在需要时才实例化，并且能够在大多数时保证对象唯一性。
