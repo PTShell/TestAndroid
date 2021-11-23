@@ -15,7 +15,6 @@ public class DataManager implements AppDbHelper, AppApiHelper, AppPreferenceHelp
         this.mAppPreferenceHelper = appPreferenceHelper;
     }
 
-
     @Override
     public void testDb() {
         mAppDbHelper.testDb();

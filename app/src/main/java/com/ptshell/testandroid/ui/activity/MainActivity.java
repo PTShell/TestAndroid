@@ -9,7 +9,6 @@ import com.ptshell.testandroid.presenter.MainPresenter;
 
 public class MainActivity extends BaseActivity<MainPresenter> implements MainContract.View {
 
-
     @Override
     protected void initPresenter() {
         mPresenter = new MainPresenter();

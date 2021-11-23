@@ -7,7 +7,6 @@ import com.ptshell.testandroid.contract.MainContract;
 
 public class MainPresenter extends BasePresenter<MainContract.View> implements MainContract.Presenter {
 
-
     @Override
     public void testGetMpresenter() {
         Log.d("PTShell", "我是P层的引用");
