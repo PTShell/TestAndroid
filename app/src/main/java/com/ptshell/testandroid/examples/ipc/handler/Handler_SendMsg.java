@@ -8,11 +8,10 @@ import android.util.Log;
  * sendMessage
  */
 public class Handler_SendMsg {
-    private final String TAG = "Handler_SendMsg";
-
     public final int MSG_DOWN_FAIL = 1;
     public final int MSG_DOWN_SUCCESS = 2;
     public final int MSG_DOWN_START = 3;
+    private final String TAG = "Handler_SendMsg";
     private final Handler mHandler = new Handler() {
         public void handleMessage(Message msg) {
             switch (msg.what) {

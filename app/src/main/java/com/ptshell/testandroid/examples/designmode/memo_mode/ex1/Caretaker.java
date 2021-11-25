@@ -6,11 +6,11 @@ package com.ptshell.testandroid.examples.designmode.memo_mode.ex1;
 public class Caretaker {//备忘录管理类
     private Memento mMemento;
 
-    public void setMemento(Memento memento) {
-        mMemento = memento;
-    }
-
     public Memento getMemento() {
         return mMemento;
+    }
+
+    public void setMemento(Memento memento) {
+        mMemento = memento;
     }
 }

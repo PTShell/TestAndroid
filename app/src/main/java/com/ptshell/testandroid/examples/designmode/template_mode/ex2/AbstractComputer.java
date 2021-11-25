@@ -8,7 +8,6 @@ package com.ptshell.testandroid.examples.designmode.template_mode.ex2;
  * 打开计算机的整个过程都是相对固定的，
  * 首先启动计算机电源，计算机检测自身状态没有问题时将进入操作系统，
  * 对用户进行验证之后即可登录计算机，下面我们使用模板方法来模拟一下这个过程：
- *
  */
 //抽象的Computer
 public abstract class AbstractComputer {
